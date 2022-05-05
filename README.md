@@ -1,24 +1,28 @@
-# README
+# GOSSIP PROJECT APP
 
 This README would normally document whatever steps are necessary to get the
-application up and running.
+application up and running....
 
-Things you may want to cover:
+![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white)  
+![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white) 
 
-* Ruby version
+* Configuration : Ruby version 2.7.4, Rails v.5.2.7.1
 
-* System dependencies
+- Bundle install
+- to implement the database:  
+`rails db:reset `  
 
-* Configuration
+    => It is gonna drop and recreate the table, and launch the seed file. Thanks to the 'Faker' gem file.
 
-* Database creation
+Pinciples
 
-* Database initialization
+    A user can post gossips on the app
+    A gossip belongs to an user
+    A gossip has one or several tags
+    A user can send a private message to another user
 
-* How to run the test suite
+Features to be implemented
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+    A user can send a message to several recipients
+    A user can comment a gossip
+    A user can comment a comment
