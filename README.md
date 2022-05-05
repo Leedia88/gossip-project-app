@@ -10,19 +10,19 @@ application up and running....
 
 - Bundle install
 - to implement the database:  
-`rails db:reset `  
+ `rails db:reset`   
 
-    => It is gonna drop and recreate the table, and launch the seed file. Thanks to the 'Faker' gem file.
+=> It is gonna drop and recreate the table, and launch the seed file. Thanks to the 'Faker' gem file.
 
-Pinciples
+# Pinciples
 
-    A user can post gossips on the app
-    A gossip belongs to an user
-    A gossip has one or several tags
-    A user can send a private message to another user
+* A user can post gossips on the app
+* A gossip belongs to an user
+* A gossip has one or several tags
+* A user can send a private message to another user
 
-Features to be implemented
+# Features to be implemented
 
-    A user can send a message to several recipients
-    A user can comment a gossip
-    A user can comment a comment
+* A user can send a message to several recipients
+* A user can comment a gossip
+* A user can comment a comment
